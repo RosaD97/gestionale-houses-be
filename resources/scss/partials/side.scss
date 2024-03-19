@@ -1,0 +1,32 @@
+        // SIDEBAR
+        .side {
+            width: 20%;
+            background-color: $gray;
+
+            .titolo {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            ul {
+                li {
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+
+                        &:hover {
+                            color: $red;
+                        }
+                    }
+                }
+            }
+
+            .img-wrapper {
+                width: 150px;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }

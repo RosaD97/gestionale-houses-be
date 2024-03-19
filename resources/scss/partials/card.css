@@ -1,0 +1,15 @@
+.my_card {
+  color: black;
+  text-decoration: none;
+}
+.my_card .card-title {
+  text-transform: uppercase;
+}
+.my_card img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.my_card .my_btn_card {
+  background-color: rgb(12, 144, 167);
+}/*# sourceMappingURL=card.css.map */
